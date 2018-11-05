@@ -2,7 +2,7 @@
 
 A nodejs crawler + vuejs front
 
-## Prerequies
+## Prerequisite
 
 - Having an accessible mongoDB instance
 - Git
