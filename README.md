@@ -27,6 +27,11 @@ Clone this repo : git clone https://github.com/MicroLink26/crawler.git
 - NODE_ENV=uat for acceptence testing plateforme
 - NODE_ENV=production for production
 
+#### Refresh database (with wget)
+
+- refresh trending : wget {server:port}/api/V1/products/refresh/trending
+- refresh best-selling : wget {server:port}/api/V1/products/refresh/best-selling
+
 #### Test
 
 npm test
