@@ -22,12 +22,12 @@ if (process.env.NODE_ENV === 'production') {
   hostname = ''
   port = ''
 } else {
-  dbServer = ''
-  dbusername = ''
-  dbpassword = ''
-  targetsite = ''
-  hostname = ''
-  port = ''
+  dbServer = 'ds249873.mlab.com:49873/productsdb'
+  dbusername = 'userproducts'
+  dbpassword = '123soleil'
+  targetsite = 'http://www.google.com/search?&q=cache%3Ahttps%3A//www.cultbeauty.co.uk'
+  hostname = 'localhost'
+  port = '3000'
 }
 
 module.exports = {

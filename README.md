@@ -19,6 +19,12 @@ Clone this repo : git clone https://github.com/MicroLink26/crawler.git
 - install NPM packages : npm install
 - start api : npm run start
 
+#### Environements
+
+- NODE_ENV=dev for development
+- NODE_ENV=uat for acceptence testing plateforme
+- NODE_ENV=production for production
+
 ### Frontend
 
 - open a terminal and go to directory crawler
