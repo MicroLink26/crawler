@@ -16,10 +16,22 @@ Clone this repo : git clone https://github.com/MicroLink26/crawler.git
 ### Backend
 
 - open a terminal and go to directory crawler
-- cd backend
+```
+cd backend
+```
 - Update   dbServer, dbusername ,dbpassword ,targetsite ,hostname  in [configuration file](backend/config/config.js)
-- install NPM packages : npm install
-- start api : npm run start
+- install NPM packages : 
+```
+npm install
+```
+- start api : 
+```
+npm run start
+```
+-run test
+```
+npm test
+```
 
 #### Environements
 
@@ -33,8 +45,9 @@ Clone this repo : git clone https://github.com/MicroLink26/crawler.git
 - refresh best-selling : wget {server:port}/api/V1/products/refresh/best-selling
 
 #### Test
-
+```
 npm test
+```
 
 ### Frontend
 
@@ -51,7 +64,7 @@ npm install
 npm run serve
 ```
 
-####Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
