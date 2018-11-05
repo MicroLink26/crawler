@@ -1,6 +1,6 @@
 # crawler
-A nodejs crawler + vuejs front
 
+A nodejs crawler + vuejs front
 
 ## Prerequies
 
@@ -10,7 +10,9 @@ A nodejs crawler + vuejs front
 - Npm 6.4.1
 
 ## Quickstart
+
 Clone this repo : git clone https://github.com/MicroLink26/crawler.git
+
 ### Backend
 
 - open a terminal and go to directory crawler
@@ -24,6 +26,10 @@ Clone this repo : git clone https://github.com/MicroLink26/crawler.git
 - NODE_ENV=dev for development
 - NODE_ENV=uat for acceptence testing plateforme
 - NODE_ENV=production for production
+
+#### Test
+
+npm test
 
 ### Frontend
 

@@ -14,7 +14,7 @@ ProductRouter.get('/:type', (req, res) => {
 
 
 ProductRouter.get('/refresh/:type', (req, res) => {
-    var crawler = require("./utils/crawler.js")
+    var crawler = require("../utils/crawler.js")
 
     if (crawler.refresh(req.params.type)) {
         return res.status(200).json({

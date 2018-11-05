@@ -39,7 +39,7 @@ export default {
       const response = await ProductsService.refreshProducts({
         type: this.$route.params.type
       });
-      if(response.data.status==200)
+      
       this.getProducts()
     },
     exportToCSV() {

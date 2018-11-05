@@ -47,6 +47,6 @@ app.get(['/*'], function (req, res) {
   })
 
   
-  app.listen(port, hostname, function(){
+  module.exports = app.listen(port, hostname, function(){
 	console.log("Server listen on http://"+ hostname +":"+port)
 })
