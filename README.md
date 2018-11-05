@@ -3,10 +3,11 @@ A nodejs crawler + vuejs front
 
 
 ## Prerequies
-Having an accessible mongoDB instance
-Git
-Node 10.13.0
-Npm 6.4.1
+
+- Having an accessible mongoDB instance
+- Git
+- Node 10.13.0
+- Npm 6.4.1
 
 ## Quickstart
 Clone this repo : git clone https://github.com/MicroLink26/crawler.git
